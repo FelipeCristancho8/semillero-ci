@@ -6,5 +6,5 @@ import java.io.IOException;
 
 public interface WordCounter {
 
-    Summary process(String path) throws IOException;
+    Summary process(String pathFile) throws IOException;
 }
